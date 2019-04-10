@@ -1,0 +1,110 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  color: black;
+}
+
+#mainImage {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.dividingLine {
+  height: 2px;
+  background-color: black;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#theLoop {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+.postRow {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.post {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 100%;
+}
+
+.post h5 {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.post p {
+  font-size: 0.75em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-height: X;        /* fallback */
+  max-height: X*N;       /* fallback */
+}
+
+.card-header {
+  text-align: center;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.date-col p {
+  margin: 0px;
+  text-align: center;
+}
+
+.card-img-left {
+  background-size: auto 100%;
+  height: 100%
+}
+
+.section-header {
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.section-div {
+  border-top: 1px solid black;
+  width: 75%;
+  margin: auto;
+}
+
+.section-body {
+  border-right: 1px solid #E8E7E7;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.no-border {
+  border: 0px;
+}
+
+.section-column {
+  padding: 0px;
+}
